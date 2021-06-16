@@ -74,9 +74,23 @@ const fruits = [
     },
 ]
 
-it('gets the test endpoint', async() => {
+const grapefruit = {
+    
+        "id": 4,
+        "name": "Grapefruit",
+        "category": "Tree",
+        "price": 5,
+        "sweet": false
+}
+
+it('fruits responds will all fruits', async() => {
   const response = await request.get('/fruits')
 
-  expect(response.status).toBe(200)
   expect(response.body).toEqual(fruits)
-})
+});
+
+it('fruits/:id responds with one fruit', async() => {
+    const response = await request.get('/fruits/4')
+  
+    expect(response.body).toEqual(grapefruit)
+});
