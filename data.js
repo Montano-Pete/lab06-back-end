@@ -3,7 +3,7 @@ const fruits = [
         id: 1,
         name: 'Rainier Cherry',
         category: 'Tree',
-        price: 0.75,
+        price: 1,
         sweet: true,
     },
     {
@@ -45,7 +45,7 @@ const fruits = [
         id: 7,
         name: 'Passion Fruit',
         category: 'Vine',
-        price: 1,
+        price: 4,
         sweet: true,
     },
     {
@@ -59,13 +59,14 @@ const fruits = [
         id: 9,
         name: 'Lemon',
         category: 'Tree',
-        price: 1,
+        price: 2,
         sweet: false,
     },
     {
         id: 10,
         name: 'Dragon Fruit',
         category: 'Cactus',
+        price: 4,
         sweet: true,
     },
 ]
