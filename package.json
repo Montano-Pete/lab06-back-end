@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Montano-Pete/lab06-back-end/issues"
   },
-  "homepage": "https://github.com/Montano-Pete/lab06-back-end#readme"
+  "homepage": "https://github.com/Montano-Pete/lab06-back-end#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^27.0.4",
+    "supertest": "^6.1.3"
+  }
 }
